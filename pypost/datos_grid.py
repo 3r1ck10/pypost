@@ -1,6 +1,6 @@
 # Copyright 2020 by Erick Alexis Alvarez Sanchez, The national meteorological and hydrological service of Peru (SENAMHI).
 # All rights reserved.
-# This file is part of the PYTHON Climate Post Processing (PYCP) package,
+# This file is part of the pypost package,
 # and is released under the "MIT License Agreement". Please see the LICENSE
 # file that should have been included as part of this package.
 
