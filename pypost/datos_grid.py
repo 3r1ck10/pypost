@@ -57,7 +57,7 @@ def open_station(estaciones,do,dm,da,var,f_cal=None,f_apl=None):
         cnj_datos['da']=xray.open_dataset(da)[var].sel(time=slice(f_apl[0],f_apl[1]))
     for model_data in ['dm','da']:
         for la,lo in zip(['latitud','latitude','Latitude'],['longitud','longitude','Longitude']):
-            if ((la in model_data.coords.dims) and (lo in model_data.coords.dims)):
+            if ((la in cnj_datos[model_data].coords.dims) and (lo in cnj_datos[model_data].coords.dims)):
                 print('cambiando nombre de coordenadas a latlon')
                 cnj_datos[model_data]=cnj_datos[model_data].rename({la:'lat',lo:'lon'})
             else:

@@ -8,12 +8,12 @@ from setuptools import setup
 
 setup(
     name='pypost',
-    version='1.0.0.0',
+    version='1.0.0.2',
     description='Primera version de pypost!',
     packages = ['pypost'],
     license='MIT',
     author_email='erick.alvarez.met@gmail.com',
-    download_url='https://github.com/3r1ck10/pypost/archive/v1.0.0.0.tar.gz',
+    download_url='https://github.com/3r1ck10/pypost/archive/v1.0.0.2.tar.gz',
     install_requires=['numpy',
     'pandas','matplotlib','xarray','seaborn','scikit-learn','netcdf4'],
     classifiers=[
